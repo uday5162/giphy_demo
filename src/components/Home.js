@@ -41,7 +41,7 @@ class HomePre extends Component {
     const { offset } = this.state;
     const { filterText } = this.props;
     fetch(
-      "https://api.giphy.com/v1/gifs/search?api_key=TyJzsxyZ6ixFUYfQlF23hQz6vO9aDfev&q=" +
+      "https://api.giphy.com/v1/gifs/search?api_key=APIKEY&q=" +
         filterText +
         "&limit=20&offset=" +
         offset,
